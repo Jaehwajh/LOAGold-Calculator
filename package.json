@@ -1,0 +1,32 @@
+{
+  "name": "loagold-calculator",
+  "version": "1.0.0",
+  "description": "A simple Lost Ark Gold Calculator based on averages from players roster",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaehwajh/LOAGold-Calculator.git"
+  },
+  "author": "Jaehwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaehwajh/LOAGold-Calculator/issues"
+  },
+  "homepage": "https://github.com/Jaehwajh/LOAGold-Calculator#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.12.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
